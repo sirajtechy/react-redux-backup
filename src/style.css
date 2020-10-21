@@ -1,0 +1,50 @@
+.color-me{
+    font-style: italic;
+}
+
+.box-model{
+    width:20%;
+    margin: 20px;
+    padding:30px;
+    border: 2px solid #000;
+    display: inline-block;
+}
+
+.para-me p {
+    padding: 20px;
+    background-color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4em;
+}
+
+.wrapper{
+    float: left;
+    width: 29.33%;
+    margin:1%;
+    padding :1%;
+    height :140px;
+    background: black;
+}
+.wrapper h2 , .wrapper p {
+    color : #999;
+    margin : 10px 0 ;
+    text-align: center;
+}
+* {font-family: Arial, Helvetica, sans-serif;}
+
+span {
+    color: red;
+}
+span {
+    color: blue;
+}
+#main-content >  p{
+    color: green;
+}
+
+#sub-content {
+    color : red;
+}
+:root {--red-color : violet; }
+
+p {color : var(--red-color);}
